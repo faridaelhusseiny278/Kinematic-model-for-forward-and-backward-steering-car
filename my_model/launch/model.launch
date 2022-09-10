@@ -1,0 +1,5 @@
+<launch>
+ <rosparam command ="load" file="$(find my_model)/config/model.yaml"/>
+ <node name="oop2_bicycle_model" pkg="my_model" type="oop2_bicycle_model.py" output ="screen"/>
+</launch>
+
